@@ -11,7 +11,7 @@ body {
 
 .card-title {
   font-size: 30px;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Star Jedi', arial;
 }
 
 .card {
@@ -23,7 +23,10 @@ body {
 }
 
 .card-text {
+  font-weight: bold;
   font-style: italic;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 2px 2px 2px #82441a;
 }
 
 .card-footer {

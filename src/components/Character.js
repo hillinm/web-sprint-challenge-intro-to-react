@@ -11,13 +11,11 @@ export default function CharPage() {
             .then(response => {
               console.log(response.data.results)
               setCharacter(response.data.results)
-
             })
             .catch((error) => console.log("error"));
           }
 
 useEffect(effectFn, [setCharacter]);
-
 
     return (
         <div className='character'>
