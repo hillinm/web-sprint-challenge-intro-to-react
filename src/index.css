@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 .col {
-  display: flexbox;
+  display: inline-flex;
 }
 
 .card-title {
@@ -23,4 +23,8 @@ body {
 
 .card-text {
   font-style: italic;
+}
+
+.card-footer {
+  color: blue;
 }

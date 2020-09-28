@@ -4,8 +4,7 @@ import { Col, Card, CardHeader, CardFooter, CardBody, CardTitle, CardText } from
 const CharacterCard = (props) => {
     return (
             <Col>
-            <Card>
-                <CardHeader>
+                <Card>
                     <CardBody>
                         <CardTitle>{props.name}</CardTitle>
                         <CardText>Height: {props.height}</CardText>
@@ -14,9 +13,8 @@ const CharacterCard = (props) => {
                         <CardText>Birth Year: {props.birth_year}</CardText>
                     </CardBody>
                     <CardFooter>Home World:  {props.homeworld}</CardFooter>
-                </CardHeader>
-            </Card>
-        </Col>
+                </Card>
+            </Col>
     )   
 }
 
