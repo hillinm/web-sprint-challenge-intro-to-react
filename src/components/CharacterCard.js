@@ -3,7 +3,6 @@ import { Col, Card, CardHeader, CardFooter, CardBody, CardTitle, CardText } from
 
 const CharacterCard = (props) => {
     return (
-        <div>
             <Col>
             <Card>
                 <CardHeader>
@@ -18,7 +17,6 @@ const CharacterCard = (props) => {
                 </CardHeader>
             </Card>
         </Col>
-        </div>
     )   
 }
 
