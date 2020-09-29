@@ -5,3 +5,30 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+.col {
+  display: inline-flex;
+}
+
+.card-title {
+  font-size: 30px;
+  font-family: 'Star Jedi', arial;
+}
+
+.card {
+  background-color: rgba(209, 180, 148, 0.5);
+  margin: 10px 35% 10px 35%;
+  padding: 20px;
+  border: 5px solid black;
+  align-items: center;
+}
+
+.card-text {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 2px 2px 2px #82441a;
+}
+
+.card-footer {
+  color: blue;
+}
